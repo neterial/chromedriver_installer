@@ -187,15 +187,15 @@ class Install(install):
 
 
 setup(
-    name='chromedriver_installer',
+    name='chromedriver_installer64',
     version='0.0.4',
     author='Peter Hudec',
-    author_email='peterhudec@peterhudec.com',
+    author_email='chromedriver_installer64@neterial.com',
     description='Chromedriver Installer',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst'))
         .read(),
     keywords='chromedriver installer',
-    url='https://github.com/peterhudec/chromedriver_installer',
+    url='https://github.com/neterial/chromedriver_installer64',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
