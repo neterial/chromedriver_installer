@@ -52,7 +52,7 @@ class BuildScripts(build_scripts):
 
     def _download(self, zip_path, validate=False):
         plat = platform.platform().lower()
-        architecture = 32
+        architecture = 64
         if plat.startswith('darwin'):
             os_ = 'mac'
         elif plat.startswith('linux'):
